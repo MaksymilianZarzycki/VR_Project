@@ -25,7 +25,7 @@ public class graber : MonoBehaviour
         {
             Vector3 direction = transform.position - heldObject.transform.position;
             direction = direction.normalized;
-            heldObjectRB.AddForce(direction * pullForce);
+            heldObjectRB.AddForce(direction * pullForce * Time.deltaTime);
         }
     }
 

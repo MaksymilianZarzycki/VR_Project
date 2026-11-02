@@ -13,7 +13,7 @@ public class BowlingPin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.rotation.eulerAngles.x > 45 || transform.rotation.eulerAngles.y > 45)
+        if(transform.rotation.eulerAngles.x > 45 || transform.rotation.eulerAngles.z > 45)
         {
             GetComponent<MeshRenderer>().material = fallMat;
         }

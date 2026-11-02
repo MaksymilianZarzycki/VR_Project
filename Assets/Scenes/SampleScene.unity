@@ -1477,7 +1477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7619516598591843050, guid: 9c072f5d6b04bf50c8fc6a73883b8043, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4378533322656171438, guid: 9c072f5d6b04bf50c8fc6a73883b8043, type: 3}
@@ -1609,7 +1609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7626136307266961902, guid: dba9036bb87e32f53b7364c6fd8a1f3a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8030656951129044905, guid: dba9036bb87e32f53b7364c6fd8a1f3a, type: 3}
       propertyPath: mouseSensitivity
@@ -1638,6 +1638,10 @@ PrefabInstance:
     - target: {fileID: 8030656951129044905, guid: dba9036bb87e32f53b7364c6fd8a1f3a, type: 3}
       propertyPath: mouseY.m_Action.m_Name
       value: Mouse Y
+      objectReference: {fileID: 0}
+    - target: {fileID: 8284075181978999631, guid: dba9036bb87e32f53b7364c6fd8a1f3a, type: 3}
+      propertyPath: pullForce
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 8666042641447962794, guid: dba9036bb87e32f53b7364c6fd8a1f3a, type: 3}
       propertyPath: m_Enabled
