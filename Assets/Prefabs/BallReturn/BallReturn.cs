@@ -28,6 +28,10 @@ public class BallReturn : MonoBehaviour
                 ballRB.linearVelocity = Vector3.zero;
                 ballRB.angularVelocity = Vector3.zero;
                 ball.transform.position = returnPos.position;
+
+		timerActive = false;
+		BowlingGame game = FindFirstObjectByType<BowlingGame>();
+		if (game != null) game.CompleteRoll();
             }
         }
     }
